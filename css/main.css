@@ -21,7 +21,7 @@ body {
   padding: 0;
 }
 .masthead {
-    background-color: #DDDDDD;
+    background-color:#AAAAAA;
     overflow: hidden;
     display: block;
 }
@@ -75,4 +75,26 @@ ul {
         float:left;
         padding:
     }
+}
+    .header {
+        background-color: #E8E8E8;
+        overflow: hidden;
+        text-align: center;
+    }
+
+.footer {
+    background-color:#AAAAAA;
+    overflow: hidden;
+    display: block;
+    font-weight: 400;
+}
+
+.lightgrey {
+    background-color: #E8E8E8;
+    overflow: hidden;
+}
+
+
+.mediumgrey {
+    background-color: #D3D3D3;
 }
