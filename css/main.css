@@ -107,53 +107,12 @@ ul {
     list-style-type: none;
     padding:0;
 }
-@media only screen and (min-width: 20em) {
-    
-    .masthead {
-        text-align: center;
-    }
-    
-    .nav li {
-        display:inline-block;
-    }
-    
-    .nav {
-        text-align: center;
-    }
-    
-    .footer {
-        text-align: center;
-    }
-    
-    .copyright {
-        text-align: center;
+
+.header {
+    background-color: #E8E8E8;
+    overflow: hidden;
+    text-align: center;
 }
-}
-@media only screen and (min-width: 40em) {
-    
-    .title {
-        float:left;
-        margin: 0;
-        padding:0;
-    }
-    
-    .nav {
-        padding:1rem;
-        text-align: center;
-    }
-    .footer {
-    text-align: right;
-}
-.copyright {
-    text-align: left;
-}
-    
-}
-    .header {
-        background-color: #E8E8E8;
-        overflow: hidden;
-        text-align: center;
-    }
 
 .footer {
     background-color:#AAAAAA;
@@ -182,6 +141,126 @@ ul {
     padding-left: 5rem;
 }    
 
+
+label {
+    display: block;
+}
+
+input + label {
+display: inline-block;
+}
+
+button {
+    font-size: 0.9em;
+    font-family:sans-serif;
+    border: 1.9px solid #000;
+    font-weight:medium;
+    padding: 0.3em 0.8em;
+    cursor: pointer;
+    background-color: white;   
+}
+
+fieldset {    
+border-style:none;
+}
+
+.button-box {
+text-align: center;
+padding-top: 1.0em;
+}
+
+.field {
+font-size: 1.5em;
+border-radius: 1px;
+background-color: white;
+padding:5.0em 1.5em;
+border-style:none;
+width: 100%;
+}
+
+.email {
+font-size: 1.5em;
+border-radius: 1px;
+background-color: white;
+padding:0em; 1.5em;
+width: 100%;
+border-style:none;
+}
+
+.name {
+font-size: 1.5em;
+border-radius: 1px;
+background-color: white;
+padding:0em; 1.5em;
+width:100%;
+border-style:none;
+}
+
+.age {
+font-size: 1.5em;
+border-radius: 1px;
+background-color: white;
+padding:0em; 1.5em;
+width: 100%;
+border-style:none;
+}
+
+.form {
+background-color:#e2e2e2;
+}
+
+@media only screen and (min-width: 20em) {
+    
+    .masthead {
+        text-align: center;
+    }
+    
+    .nav li {
+        display:inline-block;
+    }
+    
+    .nav {
+        text-align: center;
+    }
+    
+    .footer {
+        text-align: center;
+    }
+    
+    .copyright {
+        text-align: center;
+} 
+
+    .form {
+background-color:#e2e2e2;
+padding: inherit;
+}
+    
+}
+@media only screen and (min-width: 40em) {
+    
+    .title {
+        float:left;
+        margin: 0;
+        padding:0;
+    }
+    
+    .nav {
+        padding:1rem;
+        text-align: center;
+    }
+    .footer {
+    text-align: right;
+}
+.copyright {
+    text-align: left;
+}
+        .form {
+background-color:#e2e2e2;
+padding-left:2em;
+padding-right:2em;
+}
+
 @media only screen and (min-width: 60em) {
 
 
@@ -208,4 +287,13 @@ dd {
     text-align: left;
 }
     
-}    
+.form {
+background-color:#e2e2e2;
+padding-left:10em;
+padding-right:10em;
+    
+}
+    
+.p {
+text-align: center;
+}
