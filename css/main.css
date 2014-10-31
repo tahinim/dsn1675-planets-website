@@ -160,6 +160,9 @@ button {
     background-color: white;   
 }
 
+.heading2 {
+    text-align: center;
+}
 fieldset {    
 border-style:none;
 }
